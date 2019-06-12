@@ -1,0 +1,17 @@
+{
+  "name": "jest-typescript-oomemory",
+  "version": "1.0.0",
+  "description": "Repro OOmemory when requiring typescript",
+  "main": "oom.test.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Nathan Shively-Sanders",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  },
+  "dependencies": {
+    "typescript": "^3.5.1"
+  }
+}
